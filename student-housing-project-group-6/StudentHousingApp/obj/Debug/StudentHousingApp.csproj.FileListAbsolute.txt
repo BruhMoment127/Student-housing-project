@@ -1,0 +1,10 @@
+C:\Users\Kenzo\student-housing-project-group-6\StudentHousingApp\bin\Debug\StudentHousingApp.exe.config
+C:\Users\Kenzo\student-housing-project-group-6\StudentHousingApp\bin\Debug\StudentHousingApp.exe
+C:\Users\Kenzo\student-housing-project-group-6\StudentHousingApp\bin\Debug\StudentHousingApp.pdb
+C:\Users\Kenzo\student-housing-project-group-6\StudentHousingApp\obj\Debug\StudentHousingApp.csproj.AssemblyReference.cache
+C:\Users\Kenzo\student-housing-project-group-6\StudentHousingApp\obj\Debug\StudentHousingApp.Form1.resources
+C:\Users\Kenzo\student-housing-project-group-6\StudentHousingApp\obj\Debug\StudentHousingApp.Properties.Resources.resources
+C:\Users\Kenzo\student-housing-project-group-6\StudentHousingApp\obj\Debug\StudentHousingApp.csproj.GenerateResource.cache
+C:\Users\Kenzo\student-housing-project-group-6\StudentHousingApp\obj\Debug\StudentHousingApp.csproj.CoreCompileInputs.cache
+C:\Users\Kenzo\student-housing-project-group-6\StudentHousingApp\obj\Debug\StudentHousingApp.exe
+C:\Users\Kenzo\student-housing-project-group-6\StudentHousingApp\obj\Debug\StudentHousingApp.pdb
