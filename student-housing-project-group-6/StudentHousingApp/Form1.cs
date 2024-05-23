@@ -135,5 +135,11 @@ namespace StudentHousingApp
         {
             //join button
         }
+
+        private void JoinHousePanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
+//deez nuts

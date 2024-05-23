@@ -37,21 +37,21 @@ namespace StudentHousingApp
             this.label2 = new System.Windows.Forms.Label();
             this.LoginPanel = new System.Windows.Forms.Panel();
             this.newAccountPanel = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.AccountTypeBox = new System.Windows.Forms.ComboBox();
             this.backToLoginButton = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.newPasswordTextbox = new System.Windows.Forms.TextBox();
             this.newUsernameTextbox = new System.Windows.Forms.TextBox();
             this.makeAccountButton = new System.Windows.Forms.Button();
-            this.AccountTypeBox = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.JoinHousePanel = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.JoinButton = new System.Windows.Forms.Button();
+            this.joinCodeInput = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.AdminMainMenuPanel = new System.Windows.Forms.Panel();
             this.mainMenuPanelAdmin = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.joinCodeInput = new System.Windows.Forms.TextBox();
-            this.JoinButton = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
             this.LoginPanel.SuspendLayout();
             this.newAccountPanel.SuspendLayout();
             this.JoinHousePanel.SuspendLayout();
@@ -140,6 +140,26 @@ namespace StudentHousingApp
             this.newAccountPanel.Size = new System.Drawing.Size(794, 447);
             this.newAccountPanel.TabIndex = 6;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(285, 246);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(102, 20);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Account type";
+            // 
+            // AccountTypeBox
+            // 
+            this.AccountTypeBox.FormattingEnabled = true;
+            this.AccountTypeBox.Items.AddRange(new object[] {
+            "Resident",
+            "Admin"});
+            this.AccountTypeBox.Location = new System.Drawing.Point(393, 240);
+            this.AccountTypeBox.Name = "AccountTypeBox";
+            this.AccountTypeBox.Size = new System.Drawing.Size(121, 28);
+            this.AccountTypeBox.TabIndex = 6;
+            // 
             // backToLoginButton
             // 
             this.backToLoginButton.Location = new System.Drawing.Point(337, 338);
@@ -192,26 +212,6 @@ namespace StudentHousingApp
             this.makeAccountButton.UseVisualStyleBackColor = true;
             this.makeAccountButton.Click += new System.EventHandler(this.makeAccountButton_Click);
             // 
-            // AccountTypeBox
-            // 
-            this.AccountTypeBox.FormattingEnabled = true;
-            this.AccountTypeBox.Items.AddRange(new object[] {
-            "Resident",
-            "Admin"});
-            this.AccountTypeBox.Location = new System.Drawing.Point(393, 240);
-            this.AccountTypeBox.Name = "AccountTypeBox";
-            this.AccountTypeBox.Size = new System.Drawing.Size(121, 28);
-            this.AccountTypeBox.TabIndex = 6;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(285, 246);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(102, 20);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Account type";
-            // 
             // JoinHousePanel
             // 
             this.JoinHousePanel.Controls.Add(this.label7);
@@ -222,6 +222,42 @@ namespace StudentHousingApp
             this.JoinHousePanel.Name = "JoinHousePanel";
             this.JoinHousePanel.Size = new System.Drawing.Size(794, 447);
             this.JoinHousePanel.TabIndex = 6;
+            this.JoinHousePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.JoinHousePanel_Paint);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(258, 226);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(51, 20);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "Code:";
+            // 
+            // JoinButton
+            // 
+            this.JoinButton.Location = new System.Drawing.Point(337, 277);
+            this.JoinButton.Name = "JoinButton";
+            this.JoinButton.Size = new System.Drawing.Size(100, 40);
+            this.JoinButton.TabIndex = 2;
+            this.JoinButton.Text = "Join";
+            this.JoinButton.UseVisualStyleBackColor = true;
+            this.JoinButton.Click += new System.EventHandler(this.JoinButton_Click);
+            // 
+            // joinCodeInput
+            // 
+            this.joinCodeInput.Location = new System.Drawing.Point(326, 223);
+            this.joinCodeInput.Name = "joinCodeInput";
+            this.joinCodeInput.Size = new System.Drawing.Size(140, 26);
+            this.joinCodeInput.TabIndex = 1;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(322, 159);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(119, 20);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Join new house";
             // 
             // AdminMainMenuPanel
             // 
@@ -239,41 +275,6 @@ namespace StudentHousingApp
             this.mainMenuPanelAdmin.Size = new System.Drawing.Size(136, 20);
             this.mainMenuPanelAdmin.TabIndex = 0;
             this.mainMenuPanelAdmin.Text = "Admin main menu";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(322, 159);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(119, 20);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Join new house";
-            // 
-            // joinCodeInput
-            // 
-            this.joinCodeInput.Location = new System.Drawing.Point(326, 223);
-            this.joinCodeInput.Name = "joinCodeInput";
-            this.joinCodeInput.Size = new System.Drawing.Size(140, 26);
-            this.joinCodeInput.TabIndex = 1;
-            // 
-            // JoinButton
-            // 
-            this.JoinButton.Location = new System.Drawing.Point(337, 277);
-            this.JoinButton.Name = "JoinButton";
-            this.JoinButton.Size = new System.Drawing.Size(100, 40);
-            this.JoinButton.TabIndex = 2;
-            this.JoinButton.Text = "Join";
-            this.JoinButton.UseVisualStyleBackColor = true;
-            this.JoinButton.Click += new System.EventHandler(this.JoinButton_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(258, 226);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 20);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "Code:";
             // 
             // Form1
             // 
