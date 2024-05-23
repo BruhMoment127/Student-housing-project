@@ -8,3 +8,13 @@ C:\Users\Kenzo\student-housing-project-group-6\StudentHousingApp\obj\Debug\Stude
 C:\Users\Kenzo\student-housing-project-group-6\StudentHousingApp\obj\Debug\StudentHousingApp.csproj.CoreCompileInputs.cache
 C:\Users\Kenzo\student-housing-project-group-6\StudentHousingApp\obj\Debug\StudentHousingApp.exe
 C:\Users\Kenzo\student-housing-project-group-6\StudentHousingApp\obj\Debug\StudentHousingApp.pdb
+C:\Users\nickm\Source\Repos\Student-housing-project\student-housing-project-group-6\StudentHousingApp\bin\Debug\StudentHousingApp.exe.config
+C:\Users\nickm\Source\Repos\Student-housing-project\student-housing-project-group-6\StudentHousingApp\bin\Debug\StudentHousingApp.exe
+C:\Users\nickm\Source\Repos\Student-housing-project\student-housing-project-group-6\StudentHousingApp\bin\Debug\StudentHousingApp.pdb
+C:\Users\nickm\Source\Repos\Student-housing-project\student-housing-project-group-6\StudentHousingApp\obj\Debug\StudentHousingApp.csproj.AssemblyReference.cache
+C:\Users\nickm\Source\Repos\Student-housing-project\student-housing-project-group-6\StudentHousingApp\obj\Debug\StudentHousingApp.Form1.resources
+C:\Users\nickm\Source\Repos\Student-housing-project\student-housing-project-group-6\StudentHousingApp\obj\Debug\StudentHousingApp.Properties.Resources.resources
+C:\Users\nickm\Source\Repos\Student-housing-project\student-housing-project-group-6\StudentHousingApp\obj\Debug\StudentHousingApp.csproj.GenerateResource.cache
+C:\Users\nickm\Source\Repos\Student-housing-project\student-housing-project-group-6\StudentHousingApp\obj\Debug\StudentHousingApp.csproj.CoreCompileInputs.cache
+C:\Users\nickm\Source\Repos\Student-housing-project\student-housing-project-group-6\StudentHousingApp\obj\Debug\StudentHousingApp.exe
+C:\Users\nickm\Source\Repos\Student-housing-project\student-housing-project-group-6\StudentHousingApp\obj\Debug\StudentHousingApp.pdb
